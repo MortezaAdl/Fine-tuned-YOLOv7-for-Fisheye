@@ -18,10 +18,10 @@ To address this challenge, we employed rotation augmentation during the training
 
 ### Data Preparation
 
-1. **Dataset**: We used the COCO dataset, which contains 80 object categories, as the base dataset for fine-tuning.
+1. **Dataset**: We used the COCO dataset containing 80 object categories as the base dataset for fine-tuning.
 2. **Filtering**:
-   - Only images containing at least one road object were retained.
-   - Size-based thresholds were applied to ensure effective training for objects as seen by an overhead fisheye camera:
+   - Only images containing at least one road object (Pedestrian, Bike, Car, Motorcycle, Bus, and Truck) were retained.
+   - Size-based thresholds were applied to ensure effective training for small objects, as seen by an overhead fisheye camera:
      - 5% for persons, bicycles, and motorcycles
      - 10% for cars
      - 25% for buses and trucks
@@ -40,17 +40,10 @@ Angles = { θ + n ⋅ (360° / N) | n ∈ {0, 1, ..., N-1} }
 
 1. Download the fine-tuned weights:
 
-      Fine-tuned [yolov7](https://drive.google.com/file/d/1Hs6KSQuMZReEjWgKdP4FOO8CMRCxON5T/view?usp=drive_link) weights
+      Fine-tuned [yolov7-fisheye](https://drive.google.com/file/d/1Hs6KSQuMZReEjWgKdP4FOO8CMRCxON5T/view?usp=drive_link) weights
       
-      Fine-tuned [yolov7e6e](https://drive.google.com/file/d/1pN1RuWFBvOzbvpHDHC3qQbLYVlG3G4cl/view?usp=drive_link) weights
+      Fine-tuned [yolov7e6e-fisheye](https://drive.google.com/file/d/1pN1RuWFBvOzbvpHDHC3qQbLYVlG3G4cl/view?usp=drive_link) weights
 
 2. Use the model for inference on fisheye images or further fine-tuning as required.
 
-## Acknowledgments
 
-- The COCO dataset is used as a base for fine-tuning the model, and we acknowledge its creators.
-- Special thanks to the developers of YOLOv7 for providing a robust framework for object detection.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
