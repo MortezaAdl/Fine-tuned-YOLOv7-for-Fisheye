@@ -26,10 +26,9 @@ To address this challenge, we employed rotation augmentation during the training
      - 10% for cars
      - 25% for buses and trucks
      - 15% for non-road user objects
-    
+
+*A sample rotated image from the COCO dataset with horizontal bounding boxes for road objects extracted from rotated segmentation polygons*
 ![Sample_COCO](https://github.com/user-attachments/assets/3d2090a1-0e74-45fd-adba-078377145086)
-
-
 
 ### Uniform Rotation Augmentation
 
