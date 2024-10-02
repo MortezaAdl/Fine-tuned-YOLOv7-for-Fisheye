@@ -33,7 +33,7 @@ To simulate various object orientations, a set of rotation angles is defined for
 
 Angles = { θ + n ⋅ (360° / N) | n ∈ {0, 1, ..., N-1} }
 
-- N is the number of rotations, and \(\theta\) is a randomly generated angle within \([0, \frac{360^\circ}{N})\).
+- N is the number of rotations, and 0 is a randomly generated angle within [0, 360° / N].
 - Each image is rotated around its center, and corresponding annotations are adjusted to fit the new orientations.
 
 ## Usage
