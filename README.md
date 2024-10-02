@@ -44,6 +44,6 @@ Angles = { θ + n ⋅ (360° / N) | n ∈ {0, 1, ..., N-1} }
       
       Fine-tuned [yolov7e6e-fisheye](https://drive.google.com/file/d/1pN1RuWFBvOzbvpHDHC3qQbLYVlG3G4cl/view?usp=drive_link) weights
 
-2. Use the model for inference on fisheye images or further fine-tuning as required.
+2. Use the model for inference on fisheye images or further fine-tuning as required. Class names: {0:'Pedestrian', 1:'Bike', 2:'Car', 3:'Motorcycle', 4:'Bus', 5:'Truck'}
 
 
