@@ -36,7 +36,7 @@ Angles = { θ + n ⋅ (360° / N) | n ∈ {0, 1, ..., N-1} }
 - N is the number of rotations, and θ is a randomly generated angle within [0, 360° / N].
 - Each image is rotated around its center, and corresponding annotations are adjusted to fit the new orientations.
 
-
+# Comparison of the fine-tuned yolov7e6e weights with the original weights and fine-tuned weights on the [FishEye8K](https://github.com/MoyoG/FishEye8K/tree/main) dataset
 ![Detection_Results](https://github.com/user-attachments/assets/8ca1899f-440f-4e48-bf99-f489b28b9fd6)
 
 ## Usage
