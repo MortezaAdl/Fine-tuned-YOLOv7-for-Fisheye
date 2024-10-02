@@ -14,7 +14,7 @@ To address this challenge, we employed rotation augmentation during the training
 ### Rotation-Augmented Training
 
 - **Problem**: Traditional CNNs are not rotation-equivariant, causing their performance to suffer when applied to non-upright objects in fisheye images.
-- **Solution**: We apply rotation augmentation by including rotated versions of training images to improve the model's robustness and its ability to recognize features in different orientations.
+- **Solution**: We apply rotation augmentation by including rotated versions of training images to improve the model's robustness and ability to recognize features in different orientations.
 
 ### Data Preparation
 
@@ -43,7 +43,10 @@ Angles = { θ + n ⋅ (360° / N) | n ∈ {0, 1, ..., N-1} }
       Fine-tuned [yolov7-fisheye](https://drive.google.com/file/d/1Hs6KSQuMZReEjWgKdP4FOO8CMRCxON5T/view?usp=drive_link) weights
       
       Fine-tuned [yolov7e6e-fisheye](https://drive.google.com/file/d/1pN1RuWFBvOzbvpHDHC3qQbLYVlG3G4cl/view?usp=drive_link) weights
+   
+   Class names: {0:'Pedestrian', 1:'Bike', 2:'Car', 3:'Motorcycle', 4:'Bus', 5:'Truck'}
 
-2. Use the model for inference on fisheye images or further fine-tuning as required. Class names: {0:'Pedestrian', 1:'Bike', 2:'Car', 3:'Motorcycle', 4:'Bus', 5:'Truck'}
+3. Use the model for inference on fisheye images or further fine-tuning as required.
+    
 
 
