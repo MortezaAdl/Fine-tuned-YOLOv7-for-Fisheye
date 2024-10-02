@@ -49,7 +49,7 @@ Angles = { θ + n ⋅ (360° / N) | n ∈ {0, 1, ..., N-1} }
 ## Usage
 
 1. Clone [YOLOv7](https://github.com/WongKinYiu/yolov7). 
-2. Download the fine-tuned weights:
+2. Download the fine-tuned weights to the code directory:
 
       Fine-tuned [yolov7-fisheye](https://drive.google.com/file/d/1Hs6KSQuMZReEjWgKdP4FOO8CMRCxON5T/view?usp=drive_link) weights
       
