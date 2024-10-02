@@ -31,9 +31,7 @@ To address this challenge, we employed rotation augmentation during the training
 
 To simulate various object orientations, a set of rotation angles is defined for each image:
 
-\[
-\text{Angles} = \left\{ \theta + n \cdot \frac{360^\circ}{N} \mid n \in \{0, 1, \dots, N-1\} \right\}
-\]
+Angles = { θ + n ⋅ (360° / N) | n ∈ {0, 1, ..., N-1} }
 
 - \(N\) is the number of rotations, and \(\theta\) is a randomly generated angle within \([0, \frac{360^\circ}{N})\).
 - Each image is rotated around its center, and corresponding annotations are adjusted to fit the new orientations.
