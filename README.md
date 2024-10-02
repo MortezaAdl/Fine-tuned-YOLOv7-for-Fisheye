@@ -48,7 +48,8 @@ Angles = { θ + n ⋅ (360° / N) | n ∈ {0, 1, ..., N-1} }
 
 ## Usage
 
-1. Download the fine-tuned weights:
+1. Clone [YOLOv7](https://github.com/WongKinYiu/yolov7). 
+2. Download the fine-tuned weights:
 
       Fine-tuned [yolov7-fisheye](https://drive.google.com/file/d/1Hs6KSQuMZReEjWgKdP4FOO8CMRCxON5T/view?usp=drive_link) weights
       
@@ -56,7 +57,7 @@ Angles = { θ + n ⋅ (360° / N) | n ∈ {0, 1, ..., N-1} }
    
    Class names: {0:'Pedestrian', 1:'Bike', 2:'Car', 3:'Motorcycle', 4:'Bus', 5:'Truck'}
 
-3. Use the model for inference on fisheye images or further fine-tuning as required.
+3. Use the model for inference on overhead fisheye traffic scenes or further fine-tuning.
     
 
 
