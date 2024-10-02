@@ -27,7 +27,8 @@ To address this challenge, we employed rotation augmentation during the training
      - 25% for buses and trucks
      - 15% for non-road user objects
     
-       ![Sample_COCO](https://github.com/user-attachments/assets/f4033f9e-310c-4ae6-a81f-cb7bb2ba9971)
+![Sample_COCO](https://github.com/user-attachments/assets/3d2090a1-0e74-45fd-adba-078377145086)
+
 
 
 ### Uniform Rotation Augmentation
